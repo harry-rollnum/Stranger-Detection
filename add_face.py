@@ -10,7 +10,6 @@ logging.basicConfig(filename='face_capture.log', level=logging.INFO,
 
 # Set up camera
 cap = cv2.VideoCapture(0)
-
 # Directory and file paths
 known_faces_dir = "known_faces/"
 known_faces_file = "known_faces.txt"

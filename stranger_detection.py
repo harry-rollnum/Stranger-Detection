@@ -83,6 +83,7 @@ while True:
         if any(matches):
             detected_known = True
             logging.info("Known face detected!")
+            print("Known Face detected")
 
         if not any(matches):
             detected_unknown = True
@@ -91,6 +92,7 @@ while True:
             filename = f"unknown_faces/unknown_face_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
             cv2.imwrite(filename, frame)
             logging.info(f"Unknown face saved as {filename}")
+            print(f"Unknown face saved as {filename}")
 
             # Send notification email with attached image
             subject = "Unknown face detected!"

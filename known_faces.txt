@@ -1,2 +1,2 @@
-known_faces/face_20240626215122.jpg
-known_faces/face_20240626215450.jpg
+known_faces/face_20240627120211.jpg
+known_faces/face_20240627120455.jpg
